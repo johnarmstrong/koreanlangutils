@@ -89,7 +89,7 @@ increase if **koreanmorphutils.py** were to be extended to deal with endings tha
 verbs and adjectives (for example verb **는다/ㄴ다 neunda/nda** vs. adjective **다 da**) - something it may do in the future.
 
 charutils.py
-============
+------------
 
 
 **charutils.py** contains a set of non-Korean-specific character functions.  The main thing to note about it is its
@@ -119,8 +119,8 @@ have to deal with non-BMP characters in a serious way you will probably do best 
 said to support non-BMP characters in a solid, transparent way.  (And it also presumably includes more non-BMP
 Chinese character blocks than Python 2.7. See the comments to the function **hanjaCodePointRangeName** for details.) 
 
-Tests
-=====
+TESTS
+-----
 
 The library contains a set of standard-form Python unit tests.  Coverage is limited.  Moreover, most of the
 tests involve iteration over lists of input and expected output data.  If they succeed, great.  If they fail, it
@@ -147,8 +147,8 @@ results to be correct (knowing that running the unit test with the new data will
 4. Run the test to verify that any tests that you expect to fail do fail.
 5. Change the code being tested to do the right thing so the failing test cases will succeed.
 
-Documentation
-=============
+DOCUMENTATION
+-------------
 
 As of now documentation of the library is limited to this README file and comments in the code.  More
 systematic documentation will be added if/when there is demand for it.
